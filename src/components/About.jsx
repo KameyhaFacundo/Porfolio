@@ -9,7 +9,7 @@ const About = () => {
         <div className="row align-items-center">
           <div className="col-md-4 text-center pt-5">
             <img
-              src="../src/images/fotoperfil.jpg"
+              src="/images/fotoperfil.jpg"
               alt="Foto de perfil"
               className="img-fluid rounded-circle mb-4"
               style={{ width: "500", height: "auto", objectFit: "cover" }}

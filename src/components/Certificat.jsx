@@ -20,39 +20,39 @@ const Certificat = () => {
     {
       title: "Universidad Nacional de Tucumán - Ingeniería en Computación",
       description: "2017 - Actualidad, San Miguel de Tucumán, Tucumán.",
-      imageUrl: "../src/images/proceso.png",
+      imageUrl: "/images/proceso.png",
     },
     {
       title: "Argentina Programa 4.0 - Desarrollo Front-end",
       description: "Tecnologías: HTML, CSS, JavaScript.",
-      imageUrl: "../src/images/ticmas.png",
+      imageUrl: "/images/ticmas.png",
     },
     {
       title: "Rolling Code School - Desarrollo Full Stack",
       description:
         "Tecnologías: HTML, CSS (Bootstrap), JavaScript (React.js), MongoDB, SCRUM.                                           ",
-      imageUrl: "../src/images/Rolling.PNG",
+      imageUrl: "/images/Rolling.PNG",
     },
     {
       title: "Global Learning - .NET",
       description: "Febrero 2023 - Diciembre 2023.",
-      imageUrl: "../src/images/GlobalLearningNet.jpeg",
+      imageUrl: "/images/global.png",
     },
     {
       title: "Curso de PostgreSQL - Platzi",
       description: "Octubre 2024 - Noviembre 2024.",
-      imageUrl: "../src/images/postgresql.png",
+      imageUrl: "/images/postgresql.png",
     },
     {
       title:
         "Curso de Ingeniería de Datos de Alto Rendimiento con la herramienta CASE",
       description: "Universidad Nacional de Tucumán - 2024.",
-      imageUrl: "../src/images/proceso.png",
+      imageUrl: "/images/proceso.png",
     },
     {
       title: "Taller de Criptomonedas, Blockchain y Contratos Inteligentes",
       description: "Universidad Nacional de Tucumán - 2024.",
-      imageUrl: "../src/images/blockain.png",
+      imageUrl: "/images/blockain.png",
     },
   ];
 
