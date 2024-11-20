@@ -1,0 +1,102 @@
+.skills-certificates-section {
+  background-color: #212529;
+  color: #fff;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.skills-certificates-section h2 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.skills-container {
+  margin-bottom: 40px;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skill-item {
+  font-size: 1.2rem;
+  background-color: #343a40;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.skill-item:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.certificates-container h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.certificate-card {
+  margin-bottom: 20px;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: #343a40;
+  color: #fff;
+  border: 1px solid #dee2e6;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #ced4da;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 8px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.animate__animated {
+  animation-duration: 1s;
+  animation-delay: 0s;
+}
+.animate__fadeIn {
+  animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

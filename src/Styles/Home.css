@@ -1,0 +1,28 @@
+.home-section {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1a1a1a, #333);
+  color: #fff;
+  text-align: center;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background: linear-gradient(135deg, #1a1a1a, #333);
+  border: 2px solid white;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
+}
