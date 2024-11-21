@@ -6,9 +6,10 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <p className="footer-text">
-          © {new Date().getFullYear()} Facundo Kameyha. Todos los derechos
-          reservados.
+          © {new Date().getFullYear()} Facundo Kameyha.
         </p>
+        <br />
+        <p>Todos los derechos reservados.</p>
       </div>
     </footer>
   );

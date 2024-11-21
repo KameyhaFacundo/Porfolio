@@ -54,6 +54,16 @@ const Certificat = () => {
       description: "Universidad Nacional de Tucumán - 2024.",
       imageUrl: "/images/blockain.png",
     },
+    {
+      title: "Virtual LAN (VLAN) - Infraestructura",
+      description: "Universidad Nacional de Tucumán - 2024.",
+      imageUrl: "/images/vlan.png",
+    },
+    {
+      title: "Enlaces Inalámbricos de Larga Distancia (WI-FI Outdoor)",
+      description: "Universidad Nacional de Tucumán - 2024.",
+      imageUrl: "/images/wifi.png",
+    },
   ];
 
   const skills = [
