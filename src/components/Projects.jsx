@@ -13,7 +13,7 @@ const Projects = () => {
     {
       title: "Ecommerce Gamer",
       description:
-        "Aplicación para que los clientes puedan realizar su compra de juegos",
+        "Aplicación para que los clientes puedan realizar su compra de juegos.",
       image: "/images/ecommerGamer.png",
       link: "https://github.com/KameyhaFacundo/Ecommerce-gamer",
     },
@@ -25,9 +25,22 @@ const Projects = () => {
       link: "https://github.com/KameyhaFacundo/BaseDatos-Sistema-salud-publica",
     },
     {
+      title: "Documentacion de base de datos, sistema de repuestos",
+      description:
+        "Gestion de gestion para un local de repuestos de automoviles.",
+      image: "/images/kcrepuestos.png",
+      link: "https://github.com/KameyhaFacundo/Ingenieria-en-software-KCrepuestos",
+    },
+    {
+      title: "Base de datos para sistema de veterinaria",
+      description: "Sistema de destion de stock, usuarios, mascotas y turnos.",
+      image: "/images/veterinaria.png",
+      link: "https://github.com/KameyhaFacundo/Sistema-de-Veterinaria",
+    },
+    {
       title: "Counter Bugs - Netlogo, Inteligencia Artificial",
       description:
-        "Trabajo Final integrador - Inteligencia Artificial con Netlogo , este proyecto realiza un conteo y clasificacion de insectos en un Sticktrap",
+        "Trabajo Final integrador - Inteligencia Artificial con Netlogo , este proyecto realiza un conteo y clasificacion de insectos en un Sticktrap.",
       image: "/images/netlogo.png",
       link: "https://github.com/KameyhaFacundo/Counter-Bugs-IA-Netlogo",
     },
