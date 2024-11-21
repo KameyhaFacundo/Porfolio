@@ -13,7 +13,9 @@ import {
   FaSitemap,
   FaWifi,
   FaLanguage,
+  FaProjectDiagram,
 } from "react-icons/fa";
+import { SiPostgresql, SiMysql, SiSqlite } from "react-icons/si";
 
 const Certificat = () => {
   const certificates = [
@@ -64,6 +66,11 @@ const Certificat = () => {
       description: "Universidad Nacional de Tucumán - 2024.",
       imageUrl: "/images/wifi.png",
     },
+    {
+      title: "CAFÉ CIENTÍFICO - I.A. 2.0 EN PROCESADORES DE AWS",
+      description: "Universidad Nacional de Tucumán - 2024.",
+      imageUrl: "/images/aws.png",
+    },
   ];
 
   const skills = [
@@ -75,6 +82,10 @@ const Certificat = () => {
     { name: "Node.js", icon: <FaNodeJs /> },
     { name: "PHP", icon: <FaPhp /> },
     { name: "Bases de Datos", icon: <FaDatabase /> },
+    { name: "PostgreSQL", icon: <SiPostgresql /> },
+    { name: "MySQL", icon: <SiMysql /> },
+    { name: "SQL", icon: <SiSqlite /> },
+    { name: "Ingeniería en Software", icon: <FaProjectDiagram /> },
     { name: "Git & GitHub", icon: <FaGit /> },
     { name: "SCRUM", icon: <FaSitemap /> },
     { name: "Redes", icon: <FaWifi /> },
